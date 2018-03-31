@@ -18,7 +18,7 @@ describe('generateLocationMessage', () => {
     var from = 'JP';
     var latitude = 60.4317717;
     var longitude = 22.1739878;
-    var url = `https://www.google.com/maps?q=${latitude},${longitude}`
+    var url = `https://www.google.com/maps?q=${latitude},${longitude}`;
     var locationMessage = generateLocationMessage(from, latitude, longitude);
 
     expect(locationMessage).toInclude({from, url});
