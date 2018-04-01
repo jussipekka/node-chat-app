@@ -1,4 +1,4 @@
 node_modules/
 .vscode/settings.json
 .eslintrc.json
-.DS_Store
+**/.DS_Store
